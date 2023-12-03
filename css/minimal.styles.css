@@ -1,0 +1,33 @@
+/* Import the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+/*Prince Engine*/
+@page {
+    size: A4;
+}
+@page:first{
+    background-color: var(--light-black);
+    @bottom-center {
+        content: "© Copytright Humans4U 2023";
+    }
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    color: var(--light-white);
+    background-color: var(--light-black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins';
+}
+
+h2 {
+    background-color: var(--light-black);
+    color: var(--light-white);
+    padding: 2px;
+    width: fit-content;
+}

@@ -1,0 +1,18 @@
+/*
+ Variable definition.
+
+ --<mode>-<name>
+ * Modes:
+    * light
+    * dark
+    * generic
+*/
+:root {
+    /* ==== Light mode ==== */
+    /* Binary */
+    --light-black: #151515;
+    --light-white: #FFFFFF;
+
+    /* Gradient */
+    
+}
