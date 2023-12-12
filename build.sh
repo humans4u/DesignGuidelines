@@ -1,5 +1,5 @@
 EXTENSIONS=${EXTENSIONS-""}
-FLAGS=${FLAGS-"--from markdown${EXTENSIONS} --to html --css css/colors.css --css css/minimal.styles.css --metadata-file metadata.yml --standalone --verbose --pdf-engine prince --number-section"}
+FLAGS=${FLAGS-"--from markdown${EXTENSIONS} --to html --css css/definition.css --css css/minimal.styles.css --metadata-file metadata.yml --standalone --verbose --pdf-engine prince "}
 # --from            specify the format of the input data
 # --to              specify the format of the output data
 # --css             include styling
@@ -8,7 +8,7 @@ FLAGS=${FLAGS-"--from markdown${EXTENSIONS} --to html --css css/colors.css --css
 # --verbose         verbose output
 # --pdf-engine      pdf/html conversion engine
 #                   <WARNING> prince is experimental
-# --number-section  number the sections
+# --number-section  number the sections, unused by now.
 
 set -xe
 

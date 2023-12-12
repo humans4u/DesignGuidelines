@@ -4,30 +4,48 @@
 /*Prince Engine*/
 @page {
     size: A4;
+    @bottom-center {
+        font-family: var(--default-font-stack); 
+        content: "© Copyright Humans4U 2023";
+    }
 }
 @page:first{
-    background-color: var(--light-black);
-    @bottom-center {
-        content: "© Copytright Humans4U 2023";
-    }
+    background-color: var(--light-grey-800);
+    color: var(--light-white);
+}
+
+/* Styles */
+
+html {
+    font-family: var(--default-font-stack);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--text-default-size);
 }
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-header {
-    color: var(--light-white);
-    background-color: var(--light-black);
+    font-size: var(--text-size-medium-small);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins';
+    font-family: var(--primary-font);
+}
+
+h1 {
+    font-size: var(--text-size-extra-large);
+    color: var(--light-white);
 }
 
 h2 {
-    background-color: var(--light-black);
+    background-color: var(--light-grey-800);
+    font-size: var(--text-size-medium-large);
     color: var(--light-white);
-    padding: 2px;
-    width: fit-content;
 }
+
+h3 {
+    font-size: var(--text-size-medium);
+}
+
+.primary-font {
+    font-family: var(--primary-font);
+}
+

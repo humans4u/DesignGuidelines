@@ -1,0 +1,67 @@
+/*
+ Variable definition.
+
+ --<mode>-<name>
+ * Modes:
+    * light
+    * dark
+    * generic
+*/
+:root {
+    /* ==== Light mode ==== */
+    /* Binary */
+    --light-black: #151515;
+    --light-white: #FFFFFF;
+
+    --light-primary-900: #1a3d6e;
+    --light-primary-800: #305b8b;
+    --light-primary-700: #4679a9;
+    --light-primary-600: #5c97c6;
+    --light-primary-500: #6fa9e8;
+    --light-primary-400: #8bbce9;
+    --light-primary-300: #a7cfe9;
+    --light-primary-200: #c3e2ea;
+    --light-primary-100: #e0f4eb;
+
+    --light-secondary-900: #171717;
+    --light-secondary-800: #2e2e2e;
+    --light-secondary-700: #464646;
+    --light-secondary-600: #5d5d5d;
+    --light-secondary-500: #b5b5b5;
+    --light-secondary-400: #c2c2c2;
+    --light-secondary-300: #d0d0d0;
+    --light-secondary-200: #dddddd;
+    --light-secondary-100: #ebebeb;
+
+    /* Gradient */
+    --light-grey-900: #111111;
+    --light-grey-800: #333333;
+    --light-grey-700: #555555;
+    --light-grey-600: #777777;
+    --light-grey-500: #999999;
+    --light-grey-400: #b2b2b2;
+    --light-grey-300: #cccccc;
+    --light-grey-200: #e5e5e5;
+    --light-grey-100: #f5f5f5;
+
+    /* ==== Misc ==== */
+    /* Fonts */;
+    --primary-font: 'Poppins';
+    --default-font-stack: Arial, Helvetica, sans-serif;
+
+    /* Text Size */
+    --text-default-size: 14px;
+    --text-size-extra-large: 3rem;
+    --text-size-large: 2.5rem;
+    --text-size-medium-large: 2rem;
+    --text-size-medium: 1.5rem;
+    --text-size-medium-small: 1rem;
+    --text-size-small: 0.9rem;
+
+    /* Weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+}
