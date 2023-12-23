@@ -44,6 +44,31 @@
     --light-grey-200: #e5e5e5;
     --light-grey-100: #f5f5f5;
 
+    /* Red for Failure and Fatal Reports */
+    --failure-fatal-900: #8B0000;  /* Strongest Red */
+    --failure-fatal-800: #B22222;
+    --failure-fatal-700: #DC143C;
+    --failure-fatal-600: #FF0000;  /* Weakest Red */
+
+    /* Yellow for Warnings */
+    --warning-900: #DAA520;  /* Strongest Yellow */
+    --warning-800: #FFD700;
+    --warning-700: #FFEA00;
+    --warning-600: #FFFF00;  /* Weakest Yellow */
+
+    /* Green for Success and Good Messages */
+    --success-good-900: #006400;  /* Strongest Green */
+    --success-good-800: #008000;
+    --success-good-700: #00A300;
+    --success-good-600: #00FF00;  /* Weakest Green */
+
+    /* Blue for Informational Messages */
+    --info-900: #000080;  /* Strongest Blue */
+    --info-800: #0000CD;
+    --info-700: #1E90FF;
+    --info-600: #ADD8E6;  /* Weakest Blue */
+
+
     /* ==== Misc ==== */
     /* Fonts */;
     --primary-font: 'Poppins';
