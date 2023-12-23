@@ -1,0 +1,100 @@
+/* Import the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+/*Prince Engine*/
+@page {
+    size: A4;
+    @bottom-center {
+        font-family: var(--default-font-stack); 
+        content: "© Copyright Humans4U 2023";
+    }
+}
+@page:first{
+    background-color: var(--light-primary-800);
+    color: var(--light-white);
+}
+
+/* Styles */
+
+html {
+    font-family: var(--default-font-stack);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--text-default-size);
+}
+
+body {
+    font-size: var(--text-size-medium-small);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-left: 5px;
+    font-family: var(--primary-font);
+}
+
+h1 {
+    font-size: var(--text-size-extra-large);
+    color: var(--light-white);
+}
+
+h2 {
+    background-color: var(--light-primary-800);
+    font-size: var(--text-size-medium-large);
+    color: var(--light-white);
+}
+
+h3 {
+    font-size: var(--text-size-medium);
+}
+
+.primary-font {
+    font-family: var(--primary-font);
+}
+
+/*
+TABLE based on https://unused-css.com/blog/css-rounded-table-corners/
+blame him not me!
+*/
+table, th, td {
+    --border: 1px solid var(--light-grey-100);
+}
+
+thead th {
+    background-color: var(--light-grey-200);
+    color: var(--light-grey-600);
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+    border: var(--border);
+    overflow: hidden;
+}
+
+/* Apply a border to the right of all but the last column */
+table th:not(:last-child),
+table td:not(:last-child) {
+    border-right: var(--border);
+}
+
+/* Apply a border to the bottom of all but the last row */
+table>thead>tr:not(:last-child)>th,
+table>thead>tr:not(:last-child)>td,
+table>tbody>tr:not(:last-child)>th,
+table>tbody>tr:not(:last-child)>td,
+table>tfoot>tr:not(:last-child)>th,
+table>tfoot>tr:not(:last-child)>td,
+table>tr:not(:last-child)>td,
+table>tr:not(:last-child)>th,
+table>thead:not(:last-child),
+table>tbody:not(:last-child),
+table>tfoot:not(:last-child) {
+    border-bottom: var(--border);
+}
+
+th, td {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
