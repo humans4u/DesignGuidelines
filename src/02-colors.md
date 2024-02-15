@@ -23,55 +23,55 @@
 		<tr>
 			<td style="background-color: var(--light-primary-900)"></td>
 			<td><code>--light-primary-900</code></td>
-			<td><code>#1a3d6e</code></td>
+			<td><code>#25353D</code></td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td style="background-color: var(--light-primary-800)"></td>
 			<td><code>--light-primary-800</code></td>
-			<td><code>#305b8b</code></td>
+			<td><code>#365459</code></td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td style="background-color: var(--light-primary-700)"></td>
 			<td><code>--light-primary-700</code></td>
-			<td><code>#4679a9</code></td>
+			<td><code>#487471</code></td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td style="background-color: var(--light-primary-600)"></td>
 			<td><code>--light-primary-600</code></td>
-			<td><code>#5c97c6</code></td>
+			<td><code>#5A8F80</code></td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td style="background-color: var(--light-primary-500)"></td>
 			<td><code>--light-primary-500</code></td>
-			<td><code>#6fa9e8</code></td>
+			<td><code>#6DAA8B</code></td>
 			<td>Original Color</td>
 		</tr>
 		<tr>
 			<td style="background-color: var(--light-primary-400)"></td> 
 			<td><code>--light-primary-400</code></td>
-			<td><code>#8bbce9</code></td>
+			<td><code>#7EB78E</code></td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td style="background-color: var(--light-primary-300)"></td> 
 			<td><code>--light-primary-300</code></td>
-			<td><code>#a7cfe9</code></td>
+			<td><code>#90C393</code></td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td style="background-color: var(--light-primary-200)"></td> 
 			<td><code>--light-primary-200</code></td>
-			<td><code>#c3e2ea</code></td>
+			<td><code>#AACFA3</code></td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td style="background-color: var(--light-primary-100)"></td> 
 			<td><code>--light-primary-100</code></td>
-			<td><code>#e0f4eb</code></td>
+			<td><code>#C4DAB5</code></td>
 			<td>-</td>
 		</tr>
 	</tbody>
