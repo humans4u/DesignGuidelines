@@ -13,14 +13,14 @@
     --light-black: #151515;
     --light-white: #FFFFFF;
 
-    --light-primary-900: #1a3d6e;
-    --light-primary-800: #305b8b;
-    --light-primary-700: #4679a9;
-    --light-primary-600: #5c97c6;
-    --light-primary-500: #6fa9e8;
-    --light-primary-400: #8bbce9;
-    --light-primary-300: #a7cfe9;
-    --light-primary-200: #c3e2ea;
+    --light-primary-900: #25353D;
+    --light-primary-800: #365459;
+    --light-primary-700: #487471;
+    --light-primary-600: #5A8F80;
+    --light-primary-500: #6DAA8B;
+    --light-primary-400: #7EB78E;
+    --light-primary-300: #90C393;
+    --light-primary-200: #AACFA3;
     --light-primary-100: #e0f4eb;
 
     --light-secondary-900: #171717;
@@ -62,8 +62,7 @@
     --success-good-700: #00A300;
     --success-good-600: #00FF00;  /* Weakest Green */
 
-    /* Blue for Informational Messages */
-    --info-900: #000080;  /* Strongest Blue */
+    /* Blue for Informational Messages */ --info-900: #000080;  /* Strongest Blue */
     --info-800: #0000CD;
     --info-700: #1E90FF;
     --info-600: #ADD8E6;  /* Weakest Blue */
@@ -89,4 +88,22 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+
+    /* Spacings */
+    --minimum-spacing: 4px;
+    --factor-two-spacing: calc( var(--minimum-spacing) * 2 );
+    --factor-three-spacing: calc( var(--minimum-spacing) * 3 );
+    --factor-four-spacing: calc( var(--minimum-spacing) * 4 );
+    --factor-five-spacing: calc( var(--minimum-spacing) * 5 );
+    --factor-six-spacing: calc( var(--minimum-spacing) * 6 );
+    --factor-seven-spacing: calc( var(--minimum-spacing) * 7 );
+    --factor-eight-spacing: calc( var(--minimum-spacing) * 8 );
+    --factor-nine-spacing: calc( var(--minimum-spacing) * 9 );
+    --factor-ten-spacing: calc( var(--minimum-spacing) * 10 );
+    --factor-eleven-spacing: calc( var(--minimum-spacing) * 11 );
+    --factor-twelve-spacing: calc( var(--minimum-spacing) * 12 );
+    --factor-thirteen-spacing: calc( var(--minimum-spacing) * 13 );
+    --factor-fourteen-spacing: calc( var(--minimum-spacing) * 14 );
+    --factor-fiveteen-spacing: calc( var(--minimum-spacing) * 15 );
+    --factor-sixteen-spacing: calc( var(--minimum-spacing) * 16 );
 }
