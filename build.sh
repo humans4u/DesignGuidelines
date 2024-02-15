@@ -1,5 +1,5 @@
 EXTENSIONS=${EXTENSIONS-""}
-FLAGS=${FLAGS-"--from markdown${EXTENSIONS} --to html --css css/definition.css --css css/minimal.styles.css --metadata-file metadata.yml --standalone --verbose --pdf-engine prince "}
+FLAGS=${FLAGS-"--from markdown${EXTENSIONS} --to html --css css/_libstylesh4u.css --css css/libstylesh4u.css --metadata-file metadata.yml --standalone --verbose --pdf-engine prince "}
 # --from            specify the format of the input data
 # --to              specify the format of the output data
 # --css             include styling
